@@ -1,0 +1,421 @@
+
+
+.inf2{
+    background-color: #0F79Af !important;
+    max-width: 1280px;
+    height: 100vh;
+    float: right;
+    position: absolute;
+    
+  }
+  .Destaque{
+      display: block;
+      z-index: 0;
+  }
+  .esq h2{
+   color: #333;
+  }
+  .dire h2{
+    color: #333;
+   }
+  .perfil2{
+    width: 50%;
+    margin-top: 50px;
+    float: left;
+  
+  }
+  .inf2 .containers2{
+    width: 100%;
+    margin-top: 0px;
+    height: 250px;
+    display: none;
+    float: left;
+    flex-direction: row;
+    margin-right: 4.3%;
+  }
+  .inf2 .livros-destaque{
+    margin-top: 150px;
+  }
+  .capa1 img{
+    width: 50%;
+    height: 320px;
+    margin-top: -530px;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  .titulo1{
+    width: 250px;
+    float: right;
+    height: 270px;
+    padding-top: 0px;
+    margin-right: 0%;
+    color: #fff;
+  }
+  .titulo1 b{
+    text-align: left;
+    float: left;
+  }
+  
+  .Descricao1{
+    width: 450px;
+    float: left;
+    height: 200px;
+    margin-left: 1%;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: #fff;
+  }
+  h6{
+    float: right;
+    margin-left: 10px;
+    padding-top: 2px;
+    
+  }
+  h5{
+    float: left;
+    text-align: left;
+  }
+  .Descricao1 b{
+    float: left;
+  }
+  
+  .butao-baixar{
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   margin-top: 40px;
+   float: right;
+   margin-right: 50px;
+   border: 5px , #fff;
+   background-color: rgb(216, 205, 205);
+   color: rgb(10, 10, 10);
+  }
+  
+  
+  .fundo2{
+    width: 500px;
+    border-radius: 30%;
+    float: left;
+    margin-right: 0px;
+    text-align: center;
+    background-color: tomato;
+    margin-top: 200px;
+    box-shadow: 0px 0px 130px 10px rgb(139, 137, 137);
+    height: 400px;
+    background-image: url(https://miro.medium.com/max/1280/1*PWy34fLb641OzLvoPrM3WA.png);
+    background-size: cover;
+    background-position: 10px -220px;
+    
+  }
+  .center2{
+    max-width: 1280px;
+    margin-top: 20vh;
+
+    background-color: black;
+  }
+  
+  .max-widht2{
+     width: 1260px;
+     text-align: center;
+     margin: auto;
+      
+  }
+
+
+  @media (max-width:700px) {
+         
+   
+      
+  
+    .nav-bar{
+      width: 100% !important;
+    }
+   .App .App{
+       height: 0px !important;
+   }
+   .center2{
+     width: 100% !important;
+    height: 120vh !important;
+    background-color: yellowgreen !important;
+    margin: auto;
+    margin-top: 150px !important;
+    background-image: linear-gradient(#000,#0F79Af) !important;
+   }
+  
+   
+   .inf2{
+    background-color: black !important;
+    width: 100%;
+    height: 200vh !important;
+    margin-top: 100px;
+}
+    
+ 
+  .max-widht2{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+ 
+ }
+
+
+ .Destaque{
+  display: block;
+  z-index: 0;
+}
+.esq h2{
+color: #333;
+}
+.dire h2{
+color: #333;
+}
+.perfil2{
+width: 80% !important;
+margin-top: 50px;
+margin-left: 10% !important;
+margin: auto;
+
+}
+
+.capa1 img{
+width: 80% !important;
+height: 280px !important;
+margin-top: -700px !important;
+margin-left: 10% !important;
+float: left;
+transform: translateX(0px) !important;
+}
+
+.titulo1{
+width: 210px !important;
+float: left !important;
+height: 240px !important;
+padding-top: 0px;
+margin-left: 10% !important;
+color: #fff;
+margin-top: 300px !important;
+}
+.titulo2 b{
+text-align: left;
+float: left;
+font-size: 12px;
+color: #0F79AF !important;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Descricao2 b{
+color: #0F79AF !important;
+
+
+}
+
+.Descricao2{
+width: 80% !important;
+float: left;
+height: 200px;
+margin-top: 60px;
+padding-top: 20px;
+
+margin-left: 5% !important;
+}
+h6{
+float: right;
+margin-left: 10px;
+padding-top: 2px;
+font-size: 12px !important;
+color: #fff !important;
+
+}
+h5{
+float: left;
+text-align: left;
+color: #fff !important;
+
+}
+.Descricao1 b{
+float: left;
+}
+
+.butao-baixar{
+width: 100% !important;
+height: 50px;
+border-radius: 0px !important;
+margin-top: 30px !important;
+float: right;
+margin-right: 0px !important;
+border: 5px , #fff;
+background-color: rgb(0, 0, 0);
+color: rgb(10, 10, 10) !important;
+}
+
+
+.fundo2{
+width: 100% !important;
+border-radius: 0%;
+margin: auto;
+margin-left: 0%;
+text-align: center;
+background-color: transparent;
+margin-top: 140px;
+box-shadow: 0px 0px 130px 10px rgb(139, 137, 137);
+height: 300px !important;
+background-repeat: no-repeat;
+background-size: cover !important;
+display: none;
+}
+
+
+  }
+
+
+
+  @media (max-width:991px) and (min-width:701px) {
+         
+   
+      
+  
+    .nav-bar{
+      width: 100% !important;
+    }
+   .App .App{
+       height: 0px !important;
+   }
+   .center2{
+     width: 100% !important;
+    height: 120vh !important;
+    background-color: yellowgreen !important;
+    margin: auto;
+    margin-top: 150px !important;
+    background-image: linear-gradient(#000,#0F79Af) !important;
+   }
+  
+   
+   .inf2{
+    background-color: black !important;
+    width: 100%;
+    height: 200vh !important;
+    margin-top: 100px;
+}
+    
+ 
+  .max-widht2{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+ 
+ }
+
+
+ .Destaque{
+  display: block;
+  z-index: 0;
+}
+.esq h2{
+color: #333;
+}
+.dire h2{
+color: #333;
+}
+.perfil2{
+width: 80% !important;
+margin-top: 50px;
+margin-left: 10% !important;
+margin: auto;
+
+}
+
+.capa1 img{
+width: 80% !important;
+height: 280px !important;
+margin-top: -700px !important;
+margin-left: 10% !important;
+float: left;
+transform: translateX(0px) !important;
+}
+
+.titulo1{
+width: 210px !important;
+float: left !important;
+height: 240px !important;
+padding-top: 0px;
+margin-left: 10% !important;
+color: #fff;
+margin-top: 300px !important;
+}
+.titulo2 b{
+text-align: left;
+float: left;
+font-size: 12px;
+color: #0F79AF !important;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Descricao2 b{
+color: #0F79AF !important;
+
+
+}
+
+.Descricao2{
+width: 80% !important;
+float: left;
+height: 200px;
+margin-top: 60px;
+padding-top: 20px;
+
+margin-left: 5% !important;
+}
+h6{
+float: right;
+margin-left: 10px;
+padding-top: 2px;
+font-size: 12px !important;
+color: #fff !important;
+
+}
+h5{
+float: left;
+text-align: left;
+color: #fff !important;
+
+}
+.Descricao1 b{
+float: left;
+}
+
+.butao-baixar{
+width: 100% !important;
+height: 50px;
+border-radius: 0px !important;
+margin-top: 30px !important;
+float: right;
+margin-right: 0px !important;
+border: 5px , #fff;
+background-color: rgb(0, 0, 0);
+color: rgb(10, 10, 10) !important;
+}
+
+
+.fundo2{
+width: 100% !important;
+border-radius: 0%;
+margin: auto;
+margin-left: 0%;
+text-align: center;
+background-color: transparent;
+margin-top: 140px;
+box-shadow: 0px 0px 130px 10px rgb(139, 137, 137);
+height: 300px !important;
+background-repeat: no-repeat;
+background-size: cover !important;
+display: none;
+}
+
+
+  }
+
+
+
+
+

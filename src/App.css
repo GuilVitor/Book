@@ -1,0 +1,73 @@
+.App{
+ max-width: 1280px;
+ height: 100vh;
+ margin: auto;
+ margin-top: -20px;
+
+ overflow: scroll;
+ background-image: linear-gradient(to top,#0F79AF,#1b2530);
+}
+.center{
+    height: 100vh !important;
+ margin: auto;
+ margin-top: -20px !important;
+
+ overflow: scroll;
+ background-image: linear-gradient(to top,#0F79AF,#1b2530);
+}
+.center2{
+    height: 100vh !important;
+ margin: auto;
+ margin-top: -20px !important;
+
+ overflow: scroll;
+ background-image: linear-gradient(to top,#0F79AF,#1b2530);
+}
+.inf{
+    background-color: black !important;
+    height: 100vh;
+}
+.App .App{
+    height: 0px !important;
+}
+@media (max-width:700px) {
+    body{
+        height: 1vh;
+       
+    }
+    .App{
+        width: 100%;
+        height: 100vh !important;
+        margin: auto;
+        margin-top: -20px;
+        overflow:auto;
+        background-image: linear-gradient(#0F79AF,#1b2530);
+       }
+      
+       .App .App{
+           height: 100px !important;
+
+       }
+       .center{
+        height: 800px !important;
+        margin: auto;
+        margin-top: -20px !important;
+       
+        overflow: scroll;
+        background-image: linear-gradient(to top,#0F79AF,#1b2530);
+       }
+       .center2{
+        height: 100vh !important;
+        margin: auto;
+        margin-top: -120px !important;
+        position: absolute !important;
+        background-image: linear-gradient(to top,#0F79AF,#1b2530);
+       }
+       .inf3{
+           background-color: black !important;
+           height: 0vh !important;
+       }
+        
+       
+}
+

@@ -1,0 +1,26 @@
+
+@media (min-width:1024px) {
+    
+.carrossel{
+    
+    width: 200px;
+    min-height: 100vh;
+    position: fixed;
+    display: none;
+
+}
+.novo-nav-bar{
+    display: block !important;
+}
+.conatiner{
+    padding-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    height: 500px;
+
+}
+
+}
+.novo-nav-bar{
+    display: none;
+}

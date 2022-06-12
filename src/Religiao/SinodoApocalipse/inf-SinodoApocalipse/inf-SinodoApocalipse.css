@@ -1,0 +1,125 @@
+
+
+.inf2{
+    background-color: black;
+    max-width: 1280px;
+    height: 100vh;
+    float: right;
+    position: absolute;
+    
+  }
+  .Destaque{
+      display: block;
+      z-index: 0;
+  }
+  .esq h2{
+   color: #333;
+  }
+  .dire h2{
+    color: #333;
+   }
+  .perfil2{
+    width: 50%;
+    margin-top: 50px;
+    float: left;
+  
+  }
+  .inf2 .containers2{
+    width: 100%;
+    margin-top: 0px;
+    height: 250px;
+    display: none;
+    float: left;
+    flex-direction: row;
+    margin-right: 4.3%;
+  }
+  .inf2 .livros-destaque{
+    margin-top: 150px;
+  }
+  .capa1 img{
+    width: 50%;
+    height: 320px;
+    margin-top: -530px;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  .titulo1{
+    width: 280px;
+    float: right;
+    height: 270px;
+    padding-top: 0px;
+    margin-right: -3%;
+    color: #fff;
+  }
+  .titulo1 b{
+    text-align: left;
+    float: left;
+  }
+  
+  .Descricao1{
+    width: 450px;
+    float: left;
+    height: 200px;
+    margin-left: 1%;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: #fff;
+  }
+  h6{
+    float: right;
+    margin-left: 10px;
+    padding-top: 2px;
+    
+  }
+  h5{
+    float: left;
+    text-align: left;
+  }
+  .Descricao1 b{
+    float: left;
+  }
+  
+  .butao-baixar{
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   margin-top: 40px;
+   float: left;
+   margin-right: 50px;
+   border: 5px , #fff;
+   background-color: rgb(216, 205, 205);
+   color: rgb(10, 10, 10);
+  }
+  
+  
+  .Religiao-fundo6{
+    width: 330px;
+    border-radius: 10%;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    background-color: tomato;
+    margin-top: 200px;
+    box-shadow: 0px 0px 130px 10px rgb(139, 137, 137);
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhXFXebwE8TPAEQpIA6NTcvrbqYATTnc6genDIpWX2WAGm5MyOKHtoVWg9WqVf7qg1aUk&usqp=CAU);
+    background-size: contain;
+    background-position: 0px -0px;
+
+    
+  }
+  .center2{
+    max-width: 1280px;
+    height: 1300px;
+    margin-top: 20vh;
+
+    background-color: black;
+  }
+  
+  .max-widht2{
+     width: 1260px;
+     text-align: center;
+     margin: auto;
+      
+  }

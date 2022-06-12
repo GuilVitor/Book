@@ -1,0 +1,623 @@
+
+h1{
+  margin-left: 20px;
+  color: #fff;
+  
+}
+h2{
+  color: #000 !important;
+}
+.Destaque{
+  margin-top: 100px;
+}
+
+.livros-destaque{
+    width: 98% !important;
+    margin-top: 50px;
+    height: 250px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0%;
+
+}
+.containers{
+  width: 90%;
+  margin-top: 0px;
+  height: 250px;
+  float: right;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3.3%;
+  transform: translateX(40px);
+
+}
+.containers2{
+  width: 90%;
+  margin-top: 0px;
+  height: 250px;
+  transform: translateX(40px);
+  display: none;
+  float: right;
+  flex-direction: row;
+  margin-right: 3.3%;
+}
+
+img{
+    width: 210px;
+    height: 200px;
+    box-shadow: 0px 0px 0px 0.5px white;
+    background-color:  transparent !important;
+
+}
+.container {
+  display: flex;
+  padding: 0 55px;
+  width: 100%;
+}
+
+.livro2 {
+  background-color:  transparent !important;
+  width: 200px;
+  flex: 0 0 19.7%;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0.5px white;
+
+  margin: 0 5px;
+  transition: transform 300ms ease 100ms;
+}
+.container:hover .livro2 {
+  transform: translateX(-5%);
+}
+.livro2:hover ~ .livro2 {
+  transform: translateX(5%);
+}
+.livro2:hover {
+  transform: scale(1.1) !important;
+}
+
+.livro {
+  background-color:  transparent !important;
+  width: 200px;
+  flex: 0 0 19.7%;
+  text-align: center;
+  margin: 0 5px;
+  transition: transform 300ms ease 100ms;
+}
+.container:hover .livro {
+  transform: translateX(-5%);
+}
+.livro:hover ~ .livro {
+  transform: translateX(5%);
+}
+.livro:hover {
+  transform: scale(1.1) !important;
+}
+.direi{
+  width: 50px;
+  height: 250px;
+  float: left !important;
+  color: #fff !important;
+  padding-top: 0px;
+  transform: translateX(30px);
+  margin-top: 0px;
+  background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+  box-shadow: 0px 0px 0px 0.5px white;
+  cursor: pointer;
+}
+.direi b{
+  writing-mode: vertical-lr ;
+  font-size: 30px !important;
+  margin-top: 50px;
+  margin-left: -30px;
+  color: #fff !important;
+  
+
+}
+
+.dire{
+  width: 50px;
+  height: 250px;
+  float: left !important;
+  color: #000 !important;
+  padding-top: 0px;
+  transform: translateX(20px);
+  margin-top: 0px;
+  box-shadow: 0px 0px 0px 0.5px white;
+  cursor: pointer;
+
+  background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+
+}
+.dire b{
+  color: #fff !important;
+}
+.esq{
+  margin-top: 0px;
+  width: 50px;
+  transform: translateX(-20px);
+  height:250px;
+  padding-top: 35px;
+  float: right !important;
+  color: #000 !important;
+  box-shadow: 0px 0px 0px 0.5px white;
+  background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+  cursor: pointer;
+
+}
+.esq b{
+  color: #fff !important;
+
+}
+
+.Destaque b{
+ 
+  color: #000;
+  font-size: 60px;  
+
+  
+}
+
+@media (max-width:770px) {
+
+    .esq{
+      display: none;
+    }
+    .dire{
+      display: none;
+    }
+    .direi{
+      transform: translateX(10px) !important;
+    }
+    .direi b{
+      margin-top: 50px !important;
+    }
+    .img1{
+      width: 210px !important;
+      margin-left: 20px !important;
+ 
+
+    }
+    .livro2 .img{
+       margin-left: -20px !important;
+    }
+
+    .livro{
+      background-color: transparent !important;
+      margin-left: 20px !important;
+
+    }
+   .livro2 .img1{
+    background-color: transparent !important;
+    margin-left: -20px !important;
+    
+   }
+
+    .livro2{
+      background-color: transparent !important;
+      margin-left: 30px !important;
+
+    }
+    .imgReligiao{
+      width: 210px !important;
+      margin-left: -20px;
+       
+    }
+    .img{
+      width: 210px !important;
+      margin-left: 10px;
+    }
+
+  .livros-destaque{
+    width: 95% !important;
+    margin-top: 50px;
+    height: 250px !important;
+    float: left;
+    display: flex;
+    overflow: scroll; 
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px !important;
+
+}
+.containers2 .img{
+  width: 210px !important;
+  margin-left: 10px;
+}
+
+
+.containers2{
+  width: 100vh !important;
+  margin-top: 0px !important;
+  height: 250px;
+  float: left !important;
+  margin-left: 825px;
+  display: block !important;
+  display: flex !important;
+  flex-direction: row !important;
+  margin-right: 3.3%;
+
+}
+
+.containers{
+  width: 90%;
+  margin-top: 0px;
+  height: 250px;
+  float: left !important;
+  display: block !important;
+  flex-direction: row !important;
+  display: flex !important;
+  margin-right: 3.3%;
+  transform: translateX(20px) !important;
+
+}
+
+.livro2 {
+ 
+  box-shadow: 0px 0px 0px 0.0px white !important;
+
+
+}
+.container:hover .livro2 {
+  transform: translateX(-0%) !important;
+}
+.livro2:hover ~ .livro2 {
+  transform: translateX(0%) !important;
+}
+.livro2:hover {
+  transform: scale(0.0) !important;
+}
+
+.livro {
+  box-shadow: 0px 0px 0px 0.0px white !important;
+
+}
+.container:hover .livro {
+  transform: translateX(-0%) !important;
+}
+.livro:hover ~ .livro {
+  transform: translateX(0%) !important;
+}
+.livro:hover {
+  transform: scale(0.0) !important;
+}
+
+
+}
+
+
+@media  (max-width:770px) and (min-width:563px) {
+  .containers2{
+    width: 100vh !important;
+    margin-top: 0px !important;
+    height: 250px;
+    float: left !important;
+    margin-left: 645px;
+    display: block !important;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right: 3.3%;
+    background-color: transparent !important;
+  }  
+
+  .livro2 {
+ 
+    box-shadow: 0px 0px 0px 0.0px white !important;
+  
+  
+  }
+  .container:hover .livro2 {
+    transform: translateX(-0%) !important;
+  }
+  .livro2:hover ~ .livro2 {
+    transform: translateX(0%) !important;
+  }
+  .livro2:hover {
+    transform: scale(0.0) !important;
+  }
+  
+  .livro {
+    box-shadow: 0px 0px 0px 0.0px white !important;
+  
+  }
+  .container:hover .livro {
+    transform: translateX(-0%) !important;
+  }
+  .livro:hover ~ .livro {
+    transform: translateX(0%) !important;
+  }
+  .livro:hover {
+    transform: scale(0.0) !important;
+  }
+  
+
+}
+
+
+@media (max-width:1023px) and (min-width:771px) {
+
+  .esq{
+    display: none;
+  }
+  .dire{
+    display: none;
+  }
+  .direi{
+    transform: translateX(10px) !important;
+  }
+  .direi b{
+    margin-top: 50px !important;
+  }
+  .img1{
+    width: 210px !important;
+    margin-left: 20px !important;
+
+
+  }
+  .livro2 .img{
+     margin-left: -20px !important;
+  }
+
+  .livro{
+    background-color: transparent !important;
+    margin-left: 20px !important;
+
+  }
+ .livro2 .img1{
+  background-color: transparent !important;
+  margin-left: -20px !important;
+  
+ }
+
+  .livro2{
+    background-color: transparent !important;
+    margin-left: 30px !important;
+
+  }
+  .imgReligiao{
+    width: 210px !important;
+    margin-left: -20px;
+     
+  }
+  .img{
+    width: 210px !important;
+    margin-left: 10px;
+  }
+
+.livros-destaque{
+  width: 95% !important;
+  margin-top: 50px;
+  height: 250px !important;
+  float: left;
+  display: flex;
+  overflow: scroll; 
+  display: flex;
+  flex-direction: row;
+  margin-left: -100px !important;
+
+}
+.containers2 .img{
+width: 210px !important;
+margin-left: 10px;
+}
+
+
+.containers2{
+width: 100vh !important;
+margin-top: 0px !important;
+height: 250px;
+float: left !important;
+margin-left: 825px;
+display: block !important;
+display: flex !important;
+flex-direction: row !important;
+margin-right: 3.3%;
+
+}
+
+.containers{
+width: 90%;
+margin-top: 0px;
+height: 250px;
+float: left !important;
+display: block !important;
+flex-direction: row !important;
+display: flex !important;
+margin-right: 3.3%;
+transform: translateX(20px) !important;
+
+}
+
+.livro2 {
+ 
+  box-shadow: 0px 0px 0px 0.0px white !important;
+
+
+}
+.container:hover .livro2 {
+  transform: translateX(-0%) !important;
+}
+.livro2:hover ~ .livro2 {
+  transform: translateX(0%) !important;
+}
+.livro2:hover {
+  transform: scale(0.0) !important;
+}
+
+.livro {
+  box-shadow: 0px 0px 0px 0.0px white !important;
+
+}
+.container:hover .livro {
+  transform: translateX(-0%) !important;
+}
+.livro:hover ~ .livro {
+  transform: translateX(0%) !important;
+}
+.livro:hover {
+  transform: scale(0.0) !important;
+}
+
+
+
+}
+
+
+@media  (max-width:1000px) and (min-width:771px) {
+.containers2{
+  width: 100vh !important;
+  margin-top: 0px !important;
+  height: 250px;
+  float: left !important;
+  margin-left: 485px;
+  display: block !important;
+  display: flex !important;
+  flex-direction: row !important;
+  margin-right: 3.3%;
+  background-color: transparent !important;
+}  
+
+.livro2 {
+ 
+  box-shadow: 0px 0px 0px 0.0px white !important;
+
+
+}
+.container:hover .livro2 {
+  transform: translateX(-0%) !important;
+}
+.livro2:hover ~ .livro2 {
+  transform: translateX(0%) !important;
+}
+.livro2:hover {
+  transform: scale(0.0) !important;
+}
+
+.livro {
+  box-shadow: 0px 0px 0px 0.0px white !important;
+
+}
+.container:hover .livro {
+  transform: translateX(-0%) !important;
+}
+.livro:hover ~ .livro {
+  transform: translateX(0%) !important;
+}
+.livro:hover {
+  transform: scale(0.0) !important;
+}
+
+
+}
+
+@media  (max-width:1023px) and (min-width:992px) {
+  .containers2{
+    width: 100vh !important;
+    margin-top: 0px !important;
+    height: 250px;
+    float: left !important;
+    margin-left: 485px;
+    display: block !important;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right: 3.3%;
+    background-color: transparent !important;
+  }  
+
+  .livro2 {
+ 
+    box-shadow: 0px 0px 0px 0.0px white !important;
+  
+  
+  }
+  .container:hover .livro2 {
+    transform: translateX(-0%) !important;
+  }
+  .livro2:hover ~ .livro2 {
+    transform: translateX(0%) !important;
+  }
+  .livro2:hover {
+    transform: scale(0.0) !important;
+  }
+  
+  .livro {
+    box-shadow: 0px 0px 0px 0.0px white !important;
+  
+  }
+  .container:hover .livro {
+    transform: translateX(-0%) !important;
+  }
+  .livro:hover ~ .livro {
+    transform: translateX(0%) !important;
+  }
+  .livro:hover {
+    transform: scale(0.0) !important;
+  }
+  
+
+
+  }
+  
+  @media  (max-width:1100px) and (min-width:1023px) {
+    
+
+
+  .livros-destaque{
+    width: 85% !important;
+    margin-top: 50px;
+    height: 250px;
+    float: left !important;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+
+}
+.containers{
+  width: 90%;
+  margin-top: 0px;
+  height: 250px;
+  float: right;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3.3%;
+  transform: translateX(40px);
+
+}
+.containers2{
+  width: 90%;
+  margin-top: 0px;
+  height: 250px;
+  transform: translateX(40px);
+  display: none;
+  float: right;
+  flex-direction: row;
+  margin-right: 3.3%;
+}
+
+img{
+    width: 210px;
+    height: 200px;
+    box-shadow: 0px 0px 0px 0.5px white;
+
+}
+.container {
+  display: flex;
+  padding: 0 05px;
+  width: 100% !important;
+}
+
+   
+  
+  
+    }
+    
+  
+  
+  
+  
+  
+
+
+

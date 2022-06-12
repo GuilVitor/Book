@@ -1,0 +1,135 @@
+
+h1{
+  margin-left: 20px;
+  color: #fff;
+  
+}
+
+.livros-destaque{
+    width: 100%;
+    margin-top: 30px;
+    height: 250px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0%;
+}
+.containers{
+  width: 90%;
+  margin-top: 0px;
+  height: 250px;
+  float: right;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3.3%;
+  transform: translateX(40px);
+
+}
+.containers2{
+  width: 90%;
+  margin-top: 0px;
+  height: 250px;
+  transform: translateX(40px);
+  display: none;
+  float: right;
+  flex-direction: row;
+  margin-right: 3.3%;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+.container {
+  display: flex;
+  padding: 0 55px;
+  width: 100%;
+}
+
+.livro2 {
+  background: green;
+  width: 200px;
+  flex: 0 0 19.7%;
+  text-align: center;
+  margin: 0 5px;
+  transition: transform 300ms ease 100ms;
+}
+.container:hover .livro2 {
+  transform: translateX(-5%);
+}
+.livro2:hover ~ .livro2 {
+  transform: translateX(5%);
+}
+.livro2:hover {
+  transform: scale(1.1) !important;
+}
+
+.livro {
+  background: #333;
+  width: 200px;
+  flex: 0 0 19.7%;
+  text-align: center;
+  margin: 0 5px;
+  transition: transform 300ms ease 100ms;
+}
+.container:hover .livro {
+  transform: translateX(-5%);
+}
+.livro:hover ~ .livro {
+  transform: translateX(5%);
+}
+.livro:hover {
+  transform: scale(1.1) !important;
+}
+.direi{
+  width: 50px;
+  height: 250px;
+  float: left !important;
+  color: #fff;
+  padding-top: 0px;
+  transform: translateX(30px);
+  margin-top: 0px;
+  background-color: black;
+
+}
+.direi b{
+  writing-mode: vertical-lr ;
+  font-size: 30px !important;
+  margin-top: 40px;
+  margin-left: -30px;
+  
+  
+
+}
+
+.dire{
+  width: 50px;
+  height: 250px;
+  float: left !important;
+  color: #fff;
+  padding-top: 0px;
+  transform: translateX(20px);
+  margin-top: 0px;
+  background-color: black;
+
+}
+.esq{
+  margin-top: 0px;
+  width: 50px;
+  transform: translateX(-20px);
+  height:250px;
+  padding-top: 35px;
+  float: right !important;
+  color: #fff;
+  background-color: #000;
+}
+
+.Destaque b{
+ 
+  color: #fff;
+  font-size: 60px;  
+
+  
+}
+
